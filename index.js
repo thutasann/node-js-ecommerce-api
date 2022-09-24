@@ -7,6 +7,7 @@ const cors = require('cors');
 // Routes
 const userRoutes = require("./routes/user");
 const authRoutes = require("./routes/auth");
+const productRoutes = require("./routes/product");
 
 dotenv.config();
 
@@ -25,9 +26,9 @@ const BASE_URL = "/klink-ecom/api/v1";
 app.use(cors());
 app.use(express.json());
 
-// User routes
 app.use(`${BASE_URL}/auth`, authRoutes);
 app.use(`${BASE_URL}/users`, userRoutes);
+app.use(`${BASE_URL}/products`, productRoutes);
 
 
 
