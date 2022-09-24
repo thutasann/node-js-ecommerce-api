@@ -20,6 +20,13 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:4000/klink-ecom/api/v1](http://localhost:4000/klink-ecom/api/v1) to view it in your Browser or Postman.
 
+## Production
+
+This prject is also Deployed on the <b>Heroku</b>.
+
+Open [https://nodejs-ecom-api.herokuapp.com/klink-ecom/api/v1/](https://nodejs-ecom-api.herokuapp.com/klink-ecom/api/v1/) in your browser\
+to view the Weclcome API.
+
 ## Endpoints
 
 - Authentication
