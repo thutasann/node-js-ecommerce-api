@@ -8,7 +8,7 @@ In your Terminal, you can run:
 
 - `git clone https://github.com/thutasann/node-js-ecommerce-api.git`
 - `cd node-js-ecommerce-api`
-- `yarn install`
+- `yarn install` or `npm install`
 
 
 ## Available Scripts
