@@ -2,6 +2,12 @@
 
 ## This is the simple Node JS Ecommerce API started from Scartch.
 
+## Backend API Repo
+
+Here is the Frontend NEXT JS app Repo Link.
+
+[https://github.com/thutasann/nextjs-ecommerce] (https://github.com/thutasann/nextjs-ecommerce)
+
 ### Installation Steps
 
 In your Terminal, you can run:
