@@ -1,6 +1,6 @@
 # node-js-ecommerce-api
 
-## This is the Node JS Ecommerce API started from Scartch.
+## This is the simple Node JS Ecommerce API started from Scartch.
 
 ### Installation Steps
 
@@ -20,8 +20,16 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:4000/klink-ecom/api/v1](http://localhost:4000/klink-ecom/api/v1) to view it in your Browser or Postman.
 
+## Endpoints
+
+- Authentication
+- Products
+- Cart
+- Order
+- Bonus Point - `Strpie Integration`
+
 ## Q & A
 
-<b>If you have any question, pls contact here - https://thutasann.vercel.app/contact </b>\
+If you have any question, <b>pls contact here - https://thutasann.vercel.app/contact </b>\
 <b>Best Regards,</b>\
 <b>Thuta</b>
