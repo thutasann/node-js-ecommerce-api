@@ -5,6 +5,7 @@ const dotenv = require('dotenv');
 const cors = require('cors');
 
 // Routes
+const welcomeRoutes = require("./routes/welcome");
 const userRoutes = require("./routes/user");
 const authRoutes = require("./routes/auth");
 const productRoutes = require("./routes/product");
@@ -26,7 +27,7 @@ mongoose.connect(process.env.MONGO_URL)
 app.use(cors());
 app.use(express.json());
 const BASE_URL = "/klink-ecom/api/v1";
-
+app.use(`${BASE_URL}/`, welcomeRoutes);
 app.use(`${BASE_URL}/auth`, authRoutes);
 app.use(`${BASE_URL}/users`, userRoutes);
 app.use(`${BASE_URL}/products`, productRoutes);
