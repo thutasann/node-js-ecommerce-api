@@ -6,7 +6,7 @@
 
 Here is the Frontend NEXT JS app Repo Link.
 
-[https://github.com/thutasann/nextjs-ecommerce] (https://github.com/thutasann/nextjs-ecommerce)
+[https://github.com/thutasann/nextjs-ecommerce](https://github.com/thutasann/nextjs-ecommerce)
 
 ### Installation Steps
 
