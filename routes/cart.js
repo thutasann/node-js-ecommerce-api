@@ -41,10 +41,10 @@ router.delete('/delete-cart/:id', verifyTokenAndAuthorization, async(req,res) =>
     }
 });
 
-// // GET USER CART
+// GET USER CARTS
 router.get('/find-cart/:userId', verifyTokenAndAuthorization, async(req,res) => {
     try {
-        const cart = await Cart.findOne({
+        const cart = await Cart.find({
             userId: req.params.userId
         });
         res.status(200).json(cart);
