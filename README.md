@@ -2,7 +2,7 @@
 
 ## This is the simple Node JS Ecommerce API started from Scartch.
 
-## Backend API Repo
+## Frontend API Repo
 
 Here is the Frontend NEXT JS app Repo Link.
 
